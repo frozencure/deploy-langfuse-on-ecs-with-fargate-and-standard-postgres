@@ -1,0 +1,24 @@
+{
+  "db_cluster_name": "langfuse-db",
+  "ecs_cluster_name": "langfuse-cluster",
+  "ecs_service_name": "langfuse-alb-service",
+  "image_version": "latest",
+  "langfuse_env": {
+    "NODE_ENV": "production",
+    "NEXTAUTH_SECRET": "yDvfpVHCHBI2XiQr2cxVAo3fkP4wN9OIs4vVLH+WpSg=",
+    "SALT": "HYiyKruFCJn3jYYD+oF8wEDmUEbqs2l+rekIQreqES4=",
+    "TELEMETRY_ENABLED": "true",
+    "NEXT_PUBLIC_SIGN_UP_DISABLED": "false",
+    "LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES": "true"
+  },
+  "availability-zones:account=608722454786:region=eu-central-1": [
+    "eu-central-1a",
+    "eu-central-1b",
+    "eu-central-1c"
+  ],
+  "availability-zones:account=253143086501:region=eu-central-1": [
+    "eu-central-1a",
+    "eu-central-1b",
+    "eu-central-1c"
+  ]
+}
